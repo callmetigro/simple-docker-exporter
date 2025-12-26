@@ -39,3 +39,4 @@ changelog:
       - 'README.md'
       - '^docs:'
       - '^test:'
+      - '^internal:'

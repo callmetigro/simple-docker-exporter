@@ -72,7 +72,7 @@ func main() {
     flag.Parse()
 
     if *showVer || *showVerShort {
-        fmt.Printf("%s v%s\n", fullProgName, version)
+        fmt.Printf("%s (Version: %s)\n", fullProgName, version)
         return
     }
     if *interval < 3 { *interval = 3 }
