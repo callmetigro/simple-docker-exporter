@@ -71,6 +71,18 @@ services:
 | `-hostport` | 0 | Docker host port (for TCP) |
 | `-v`, `--version` | | Show version and exit |
 
+## Grafana Dashboard
+
+To visualize collected metrics, you can use the following Grafana dashboard: [Docker Stats Dashboard](https://grafana.com/grafana/dashboards/24609-docker-stats/).
+
+<img width="1902" alt="Grafana dashboard" src="https://github.com/user-attachments/assets/7b31711e-f95c-45ce-8b3d-1c23db46d436" />
+
+### Quick setup
+
+1. Copy the dashboard ID: 24609.
+1. In your Grafana instance, go to Dashboards -> Import.
+1. Paste the ID and select your data source.
+
 ## Credits
 
 - Original Node.js project: [wywywywy/docker_stats_exporter](https://github.com/wywywywy/docker_stats_exporter)
